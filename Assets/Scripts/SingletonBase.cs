@@ -3,7 +3,7 @@
 public abstract class SingletonBase<T> : MonoBehaviour where T : class
 {
     protected static T instance;
-
+    public static T getInstance => instance;
     public virtual void Awake()
     {
         if (instance == null)
