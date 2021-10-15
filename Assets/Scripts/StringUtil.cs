@@ -1,4 +1,4 @@
-namespace StringUitl
+namespace ZnZUtil
 {
 	public static class StringUtil
 	{
